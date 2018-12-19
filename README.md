@@ -12,8 +12,8 @@ $session->set('foo','bar');
 O
 ```php
 $session->set('foo','bar')
-              ->set('last_activity', date('Y-m-d h:i:s') )
-			  ->set('user_id','1');
+        ->set('last_activity', date('Y-m-d h:i:s') )
+	->set('user_id','1');
 ```
 
 **Para acceder a esta sesión se utiliza el método `get()'**
@@ -30,7 +30,7 @@ $session->remove('foo');
 O
 ```php
 $session->remove('foo')
-              ->remove('user_id');
+        ->remove('user_id');
 ```
 O puedes remover todas las sesiones, perfecto para un logout:
 ```php
