@@ -25,20 +25,20 @@ $session->get('foo');
 
 **Para remover una sesión se utiliza el método `remove()`**
 ```php
-$session->remove('foo')
+$session->remove('foo');
 ```
 O
 ```php
 $session->remove('foo')
               ->remove('user_id');
-						```
+```
 O puedes remover todas las sesiones, perfecto para un logout:
 ```php
 $session->destroy_all_session();
 ```
 ## Otros métodos útiles son:
 ```php
-$session->id(); 				//Retorna el ID de la sesión actual
+$session->id(); 		//Retorna el ID de la sesión actual
 $session->get_all(); 		// Retorna un array con todas las sesiones existentes
 ```
 
