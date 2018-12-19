@@ -16,7 +16,6 @@ class SessionsController
     {
         if(!$this->is_session_started_before()){
             session_start();
-            $this->refresh_session();
         }
     }
 
