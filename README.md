@@ -1,5 +1,9 @@
 # Capa de abstracción para manejo de sesiones en PHP
 
+**Instalación vía composer**
+
+`composer require ligne/session`
+
 **Uso básico:**
 En cuanto de instancia la clase se abre una nueva sesión.
 ```php
