@@ -8,7 +8,7 @@
  * Fecha: 2018-12-19
  **/
 
-namespace Controllers;
+namespace Ligne;
 
 class SessionsController
 {

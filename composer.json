@@ -1,0 +1,24 @@
+{
+    "name": "ligne/session",
+    "type": "library",
+    "description": "session abstraction layer",
+    "keywords": ["session","php"],
+    "homepage": "https://github.com/itsalb3rt/ligne-sessions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Eduardo Hidalgo Taveras",
+            "email": "itsalb3rt@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Ligne\\": "src"
+      }
+    },
+    "minimum-stability": "dev"
+}
